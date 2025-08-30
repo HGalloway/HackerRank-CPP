@@ -32,7 +32,6 @@ void printNumberName(int numArray[]) {
     for (int i = numArray[0]; i <= numArray[1]; i++) {
         if (i < 9) {
             cout << numberEnglishRep[i-1] << endl;
-            
         }
         else {
             cout << numberEnglishRep[8] << endl;
